@@ -1,3 +1,4 @@
-const sortWildersBySchool = wilders => wilders;
+const groupWildersBySchool = wilders => ({ wilders });
+const schoolsWithWilders = wilders => wilders;
 
-module.exports = sortWildersBySchool;
+module.exports = { schoolsWithWilders, groupWildersBySchool };
